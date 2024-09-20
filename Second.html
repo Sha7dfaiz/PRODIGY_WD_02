@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Stopwatch web Application</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Styling.css">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    </head>
+    <body>
+        <main><h1>Your <br>stopwatch <br>is at <br>your service.</h1></main>
+        <img src="OIG2.38.jpeg" alt="Refresh">
+        <button class="button" id="mainStart" onclick="showElement()">Let's start!</button>
+        <i class="fa-solid fa-bell" id="notification"></i>
+        <div id="notification-container"></div>
+        <div id="container">
+            <span id="hours">00</span>
+            <span id="separ1">:</span>
+            <span id="minutes">00</span>
+            <span id="separ2">:</span>
+            <span id="seconds">00</span>
+            <button class="button" id="start">Start</button>
+            <button class="button" id="pause">Pause</button>
+            <button class="button" id="reset">Reset</button>
+            <button class="button" id="lap">Lap</button>
+            <div id="laps-container"></div>
+        </div>
+
+        
+<script src="active.js"></script>
+    </body>
+</html>
